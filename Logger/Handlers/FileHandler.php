@@ -2,13 +2,12 @@
 
 namespace Logger\Handlers;
 
-use HandlerTrait;
 use Logger\Formatters\LineFormatter;
 use Logger\LogLevel;
 
 class FileHandler implements \Logger\Handlers\HandlerInterface
 {
-    use HandlerTrait;
+    use \Logger\Handlers\HandlerTrait;
 
     public function handle($level, $message = '')
     {

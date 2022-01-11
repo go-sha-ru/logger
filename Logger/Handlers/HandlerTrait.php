@@ -1,5 +1,7 @@
 <?php
 
+namespace Logger\Handlers;
+
 use Logger\Formatters\LineFormatter;
 use Logger\LogLevel;
 
